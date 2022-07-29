@@ -9,7 +9,7 @@
     />
     <Editor
       style="height: 500px; overflow-y: hidden;"
-      v-model="html"
+      v-model="value"
       :defaultConfig="editorConfig"
       :mode="mode"
       @onCreated="onCreated"
@@ -75,7 +75,7 @@ export default {
     },
     // 同步更新父组件里的值
     increase() {
-      this.$emit("input", this.html);
+      this.$emit("input", this.value);
     }
   }
 };
