@@ -10,7 +10,7 @@
   "dependencies": {
     "@smallwei/avue": "^2.9.12",
     "@wangeditor/core": "^1.0.0",
-    "@wangeditor/editor": "^5.1.10",
+    "@wangeditor/editor": "^5.1.14",
     "@wangeditor/editor-for-vue": "^1.0.2",
     "ali-oss": "^6.17.1",
     "axios": "^0.27.2",
